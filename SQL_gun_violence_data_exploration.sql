@@ -113,4 +113,4 @@ LEFT JOIN sql_portfolio..teens_killed tk
 ON main.[Incident ID] = tk.[Incident ID]
 LEFT JOIN sql_portfolio..teens_injured ti
 ON main.[Incident ID] = ti.[Incident ID]
-GROUP BY main.State, YEAR(main.[Incident Date])
+GROUP BY main.State, YEAR(main.[Incident Date]);
